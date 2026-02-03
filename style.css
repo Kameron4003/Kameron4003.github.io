@@ -43,66 +43,34 @@ a {
     text-decoration:none ;
     color: #000000;
 }
-
 /* main container area beneath menu */
 main {
-    background: rgb(0, 0, 0);
+    background: rgb(155, 134, 134);
     display: flex;
     margin-top: 20px;
 }
 
 .sidebar {
-  margin-right: 0px;
-    justify-content: center;
-    align-items: center;
-  }
+    margin-right: 25px;
+    padding: 10px;
+}
 
 .sidebar-img {
-   width: 100%;
-  }
+    width: 200px;
+}
 
-  p,
-  li {
-    font-size: 24px;
-  }
 .content {
-    align-content: center;
-    justify-content: center;
-  }
+    flex: 1;
+    padding: 15px;
 }
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(0, 255, 55) ridge;
+    border: 4px rgba(192, 192, 192, 0) ridge;
     padding: 8px;
     margin-top: 20px;
 }
 
 h2, h3 {
     margin: 0px;
-}
-/* Portfolio styles */
-.content h1 {
-  color: black;
-}
-
-#portfolio {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#portfolio li {
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-#portfolio li:hover {
-  background: #eee;
-}
-
-#portfolio a {
-  text-decoration: none;
-  color: #454545;
 }
